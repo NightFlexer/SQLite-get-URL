@@ -17,9 +17,9 @@ b=`sed -n $i"p" url.txt | sed 's/example.//g'`
     indefined=$((indefined+1))
   fi
 done
-echo "Ðåçóëüòàò: "
-if [[ $com > 0 ]]; then echo "Äîìåí com: "$com; fi
-if [[ $de > 0 ]]; then echo "Äîìåí com: "$de; fi
-if [[ $ru > 0 ]]; then echo "Äîìåí com: "$ru; fi
-if [[ $eng > 0 ]]; then echo "Äîìåí com: "$eng; fi
-if [[ $indefined > 0 ]]; then echo "Äîìåí íå îïðåäåë¸í: "$indefined; fi
+echo "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: "
+if [[ $com > 0 ]]; then echo "Ð”Ð¾Ð¼ÐµÐ½ com: "$com; fi
+if [[ $de > 0 ]]; then echo "Ð”Ð¾Ð¼ÐµÐ½ de: "$de; fi
+if [[ $ru > 0 ]]; then echo "Ð”Ð¾Ð¼ÐµÐ½ ru: "$ru; fi
+if [[ $eng > 0 ]]; then echo "Ð”Ð¾Ð¼ÐµÐ½ eng: "$eng; fi
+if [[ $indefined > 0 ]]; then echo "Ð”Ð¾Ð¼ÐµÐ½ Ð½Ðµ Ð¾Ð¿Ñ€ÐµÐ´ÐµÐ»Ñ‘Ð½: "$indefined; fi
